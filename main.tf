@@ -18,3 +18,7 @@ terraform {
     encrypt = true
   }
 }
+
+provider "aws" {
+  region = "us-west-2"
+}
